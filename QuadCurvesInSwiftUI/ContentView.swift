@@ -10,7 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            HStack {
+                PopupBubble(arrowEdge: .top).stroke()
+                PopupBubble(arrowEdge: .bottom).stroke()
+            }
+            HStack {
+                PopupBubble(arrowEdge: .leading).stroke()
+                PopupBubble(arrowEdge: .trailing).stroke()
+            }
+            }.frame(height: 300).padding()
+
     }
 }
 

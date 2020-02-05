@@ -13,6 +13,7 @@
 		9521FA0323EAFEC2000D79F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9521FA0223EAFEC2000D79F2 /* Assets.xcassets */; };
 		9521FA0623EAFEC2000D79F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9521FA0523EAFEC2000D79F2 /* Preview Assets.xcassets */; };
 		9521FA0923EAFEC2000D79F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9521FA0723EAFEC2000D79F2 /* LaunchScreen.storyboard */; };
+		9521FA1123EAFEDC000D79F2 /* PopupBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521FA1023EAFEDC000D79F2 /* PopupBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9521FA0523EAFEC2000D79F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9521FA0823EAFEC2000D79F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9521FA0A23EAFEC2000D79F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9521FA1023EAFEDC000D79F2 /* PopupBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9521FA0723EAFEC2000D79F2 /* LaunchScreen.storyboard */,
 				9521FA0A23EAFEC2000D79F2 /* Info.plist */,
 				9521FA0423EAFEC2000D79F2 /* Preview Content */,
+				9521FA1023EAFEDC000D79F2 /* PopupBubble.swift */,
 			);
 			path = QuadCurvesInSwiftUI;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9521FA1123EAFEDC000D79F2 /* PopupBubble.swift in Sources */,
 				9521F9FD23EAFEC1000D79F2 /* AppDelegate.swift in Sources */,
 				9521F9FF23EAFEC1000D79F2 /* SceneDelegate.swift in Sources */,
 				9521FA0123EAFEC1000D79F2 /* ContentView.swift in Sources */,
